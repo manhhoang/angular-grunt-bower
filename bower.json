@@ -1,0 +1,31 @@
+{
+  "name": "angular-grunt-bower",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "src/index.html",
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.14",
+    "bootstrap": "~3.3.1",
+    "jquery": "~2.1.0",
+    "requirejs": "~2.1.10"
+  },
+  "homepage": "https://github.com/manhhoang/angular-grunt-bower",
+  "authors": [
+    "Mike Ha <hamanhhoang1102@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "test"
+  ],
+  "private": true
+}
