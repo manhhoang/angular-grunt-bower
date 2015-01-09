@@ -5,11 +5,11 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
-        banner: '/*! <%= angular-grunt-bower %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: 'src/angular-grunt-bower.js',
-        dest: 'build/angular-grunt-bower.min.js'
+        src: 'src/<%= pkg.name %>.js',
+        dest: 'build/<%= pkg.name %>.min.js'
       }
     }
   });
